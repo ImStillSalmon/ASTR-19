@@ -1,0 +1,15 @@
+def main():
+    a = 5.7
+    b = 2.3
+    print("Sum:", a + b, "| Type:", type(a + b))
+
+    c = 10
+    d = 4
+    print("Difference:", c - d, "| Type:", type(c - d))
+
+    e = 3.5
+    f = 6
+    print("Product:", e * f, "| Type:", type(e * f))
+
+if __name__ == "__main__":
+    main()
