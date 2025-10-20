@@ -1,0 +1,18 @@
+class Dog:
+    def __init__(self, arm_length, leg_length, eyes, has_tail, is_furry):
+        self.arm_length = arm_length
+        self.leg_length = leg_length
+        self.eyes = eyes
+        self.has_tail = has_tail
+        self.is_furry = is_furry
+
+    def describe(self):
+        print(f"Arms: {self.arm_length} ft, Legs: {self.leg_length} ft, Eyes: {self.eyes}")
+        print(f"Has Tail: {self.has_tail}, Furry: {self.is_furry}")
+
+def main():
+    my_dog = Dog(0.5, 1.2, 2, True, True)
+    my_dog.describe()
+
+if __name__ == "__main__":
+    main()
